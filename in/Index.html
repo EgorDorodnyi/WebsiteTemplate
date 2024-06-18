@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Repair Experts</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #007bff, #0056b3);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            animation: fadeIn 1s ease-in-out;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #004085;
+            padding: 1rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffc107;
+        }
+        section {
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        .about, .services, .testimonials, .faq, .contact {
+            background: white;
+            margin: 2rem 0;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .about h2, .services h2, .testimonials h2, .faq h2, .contact h2 {
+            color: #007bff;
+            margin-bottom: 1.5rem;
+        }
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .service-item, .testimonial-item, .faq-item {
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            text-align: left;
+        }
+        .service-item img, .testimonial-item img, .faq-item img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 1.5rem;
+            object-fit: cover;
+        }
+        .service-item:last-child, .testimonial-item:last-child, .faq-item:last-child {
+            margin-bottom: 0;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 1rem;
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        .contact-form button {
+            padding: 0.75rem 2rem;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .contact-form button:hover {
+            background: #0056b3;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        footer p {
+            margin: 0;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Phone Repair Experts</h1>
+        <p>Fast, Reliable, Affordable</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <p>Welcome to Phone Repair Experts, your trusted destination for fast, reliable, and affordable phone repair services. With over a decade of experience, our skilled technicians are dedicated to providing the highest quality repairs for all makes and models of smartphones.</p>
+            <p>Our mission is to get your device back to working order as quickly as possible, using only premium quality parts and the latest repair techniques. Customer satisfaction is our top priority, and we strive to exceed your expectations with every repair.</p>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <img src="https://via.placeholder.com/80" alt="Screen Repair">
+            <div>
+                <h3>Screen Repair</h3>
+                <p>We fix cracked and broken screens for all phone models. Our experts use high-quality replacement parts to ensure your screen looks as good as new.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="https://via.placeholder.com/80" alt="Battery Replacement">
+            <div>
+                <h3>Battery Replacement</h3>
+                <p>Replace old or damaged batteries to keep your phone running longer. We offer quick and efficient battery replacement services.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="https://via.placeholder.com/80" alt="Water Damage Repair">
+            <div>
+                <h3>Water Damage Repair</h3>
+                <p>Repair water-damaged phones to restore functionality. Our technicians are skilled in dealing with water damage issues.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="https://via.placeholder.com/80" alt="Software Issues">
+            <div>
+                <h3>Software Issues</h3>
+                <p>Fix software problems like unresponsive phones, boot loops, and more. We provide comprehensive software troubleshooting and repair.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="https://via.placeholder.com/80" alt="Camera Repair">
+            <div>
+                <h3>Camera Repair</h3>
+                <p>Our experts can fix front and rear cameras, ensuring you can capture perfect photos and videos once again.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="https://via.placeholder.com/80" alt="Charging Port Repair">
+            <div>
+                <h3>Charging Port Repair</h3>
+                <p>We repair damaged charging ports to ensure your phone charges correctly and efficiently. No more wiggling the cable to get a connection!</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="https://via.placeholder.com/80" alt="Speaker Repair">
+            <div>
+                <h3>Speaker Repair</h3>
+                <p>If your phone's speaker isn't working properly, we can repair or replace it, ensuring clear and loud sound.</p>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials">
+        <h2>Customer Testimonials</h2>
+        <div class="testimonial-item">
+            <img src="https://via.placeholder.com/80" alt="John Doe">
+            <div>
+                <p>"Excellent service! My phone looks brand new after the screen repair. The staff was very professional and the repair was done quickly." - John Doe</p>
+            </div>
+        </div>
+        <div class="testimonial-item">
+            <img src="https://via.placeholder.com/80" alt="Jane Smith">
+            <div>
+                <p>"Quick and professional battery replacement. Highly recommend! My phone's battery life has significantly improved." - Jane Smith</p>
+            </div>
+        </div>
+        <div class="testimonial-item">
+            <img src="https://via.placeholder.com/80" alt="Sam Wilson">
+            <div>
+                <p>"I had a water-damaged phone and thought it was beyond repair. Phone Repair Experts fixed it and saved me from buying a new one. Thank you!" - Sam Wilson</p>
+            </div>
+        </div>
+        <div class="testimonial-item">
+            <img src="https://via.placeholder.com/80" alt="Lisa Brown">
+            <div>
+                <p>"Great service and friendly staff. They fixed my software issues in no time. Highly recommend them for any phone repairs." - Lisa Brown</p>
+            </div>
+        </div>
+    </section>
+    <section id="faq" class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <img src="https://via.placeholder.com/80" alt="FAQ">
+            <div>
+                <h3>How long does a repair take?</h3>
+                <p>Most repairs are completed within an hour. However, more complex issues may take longer. We will provide you with an estimated time when you bring your device in.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <img src="https://via.placeholder.com/80" alt="FAQ">
+            <div>
+                <h3>Do you offer a warranty?</h3>
+                <p>Yes, we offer a 90-day warranty on all our repairs. This covers any defects in parts or workmanship.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <img src="https://via.placeholder.com/80" alt="FAQ">
+            <div>
+                <h3>What types of phones do you repair?</h3>
+                <p>We repair all major brands and models of smartphones, including iPhones, Samsung, Google Pixel, LG, and more.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <img src="https://via.placeholder.com/80" alt="FAQ">
+            <div>
+                <h3>Do I need to make an appointment?</h3>
+                <p>Appointments are not necessary, but they are recommended to ensure a faster service. Walk-ins are always welcome.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: contact@phonerepairexperts.com</p>
+        <p>Address: 123 Repair St, Fixit City, PC 12345</p>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Phone Repair Experts. All rights reserved.</p>
+    </footer>
+</body>
+</html>
